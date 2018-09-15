@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	background: url(http://bdfjade.com/data/out/61/5681080-space-wallpaper.png) center;
+	background-size: cover;
+	display: flex;
+}
+.inner {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
+.content {
+	text-align: center;
+}
+.content h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #f9f3f4;
+	font-size: 500%;
+}
+.btn {
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #03AFF1;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #03AFF1 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all 1s;
+}
+
+.btn:hover {
+	color: red;
+	border: 3px solid red;
+}
+
+p {
+	font-size: 160%;
+	line-height: 220%;
+	text-align: justify;
+	margin: 3%;
+	font-family: sans-serif;
+}
+
+@media screen and (max-width: 780px) {
+	.content h1 {
+		font-size: 250%;
+	}
+	.btn {
+		font-size: 120%;
+		padding: 7px 15px;
+	}
+	p {
+		font-size: 100%;
+		line-height: 120%;
+	}
+}
